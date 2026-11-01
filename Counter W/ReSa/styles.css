@@ -1,0 +1,19 @@
+body{
+    background-color: #d9eee2;
+}
+#counter{
+    font-size: 3em;
+    text-align: center;
+}
+.counterBtns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.counterBtn{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}

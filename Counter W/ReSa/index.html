@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p id="counter">0</p>
+
+
+    <!-- you have to include the onclick attribute and the function calls in the buttons in order for them to work-->
+    <div class="counterBtns">
+        <button onclick="increment()" class="counterBtn" id="increment">+</button>
+        <button onclick="decrement()" class="counterBtn" id="decrement">-</button>
+        <button onclick="reset()" class="counterBtn" id="reset">Reset</button>
+        <button onclick="saveCount()" class="counterBtn" id="save">Save</button>
+        <button onclick="loadCount()" class="counterBtn" id="load">Load</button>
+        <button onclick="deleteCount()" class="counterBtn" id="delete">Delete</button>
+    </div>
+
+</body>
+<script src="scripts.js">  </script>
+</html>
