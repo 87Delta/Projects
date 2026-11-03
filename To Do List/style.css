@@ -1,0 +1,23 @@
+body{
+    background-color: #D9EEE1;
+}
+
+#clearBtn, #removeBtn{
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgrey;
+}
+
+#clearBtn:hover, #removeBtn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0.5em;
+}
+
+#addBtn:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
