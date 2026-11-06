@@ -21,3 +21,16 @@ body{
     background-color: lightgreen;
     cursor: pointer;
 }
+
+#list li:nth-child(even){
+    list-style-type: square;
+    text-align: left;
+    background-color: #C47E95
+}
+
+#list li:nth-child(odd){
+    list-style-type: square;
+    text-align: left;
+    background-color: #052664;
+    color: white;
+}

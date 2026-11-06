@@ -13,10 +13,16 @@
         <button id="addBtn" onclick="addTask()">Add</button>
     </div>
     <div class="goneBtns"></div>
-        <button id="clearBtn">Clear All</button>
+        <button id="clearBtn" onclick="clearTasks()">Clear All</button>
         <!--<button id="removeBtn">Remove Last Task</button>-->
 </div>
+    <h2>Tasks:</h2>
     <ul id="list"></ul>
+    <legend>Legend:</legend>
+    <p><strong>Add:</strong> Enter a task and click "Add"</p>
+    <p><strong>Remove:</strong> Click the "x" button next to a task</p>
+    <p><strong>Clear All:</strong> Click the "Clear All" button</p>
+    <p><strong>Local Storage:</strong> Your tasks are saved in your browser's local storage, so they will persist even if you close the browser or refresh the page.</p>
 </body>
 <script src="script.js"></script>
 </html>
