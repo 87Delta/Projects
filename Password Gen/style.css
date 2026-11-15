@@ -1,0 +1,18 @@
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cf1e1e;
+    background-color: #363535;
+}
+#charGen{
+    display:block;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+#submit{
+    display:block;
+    margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudo-Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="name">Sudo-Random Password Generator</h1>
+    <p>Generate secure, random passwords for your accounts.</p>
+    <form>
+        <label for="charGen">Password Length:</label>
+        <input id="charGen" type="number" placeholder="Enter password length" min="1" max="128">
+        <button id="submit" type="button">Generate Password</button>
+    </form>
+    <!-- Password output container w/ inline styles -->
+    <div style="background-color: rgb(58, 141, 168);" id="passwordContainer">
+        <p id="passwordOutput"></p>
+    </div>
+
+    <h3>How to use:</h3>
+    <ol>
+        <li>Enter the desired length of your password in the text area.</li>
+        <li>Click the "Generate Password" button.</li>
+        <li>Your secure, random password will be displayed below.</li>
+        <li>We recommend a minimum length of 12 characters but a maximum length of 128. However you can choose any length within this range.</li>
+    </ol>
+    <p id="passwordOutput"></p>
+    <sub>
+        <author>Created by: <a href="pierrem452@gmail.com">Pierre M</a>
+    </sub>
+</body>
+<script src="script.js"></script>
+</html>
